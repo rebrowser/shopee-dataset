@@ -1,0 +1,366 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "itemId",
+    "type": "string",
+    "description": "Unique Shopee product ID",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shopId",
+    "type": "string",
+    "description": "Shopee shop/seller ID",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "title",
+    "type": "string",
+    "description": "Product title/name",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "description",
+    "type": "string",
+    "description": "Product description text",
+    "fillRate": 95,
+    "premium": false
+  },
+  {
+    "name": "status",
+    "type": "string",
+    "description": "Item status (normal, banned, deleted)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "condition",
+    "type": "float",
+    "description": "Product condition (1 = new, 2 = used)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "catId",
+    "type": "float",
+    "description": "Primary category ID",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "categories",
+    "type": "json",
+    "description": "Array of category objects with catid and display_name",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "brand",
+    "type": "string",
+    "description": "Product brand name",
+    "fillRate": 20,
+    "premium": false
+  },
+  {
+    "name": "brandId",
+    "type": "float",
+    "description": "Brand ID",
+    "fillRate": 20,
+    "premium": false
+  },
+  {
+    "name": "currency",
+    "type": "string",
+    "description": "Currency code (TWD, MYR, SGD, etc.)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "price",
+    "type": "float",
+    "description": "Current price (raw value from API, typically multiplied by 100000)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "priceMin",
+    "type": "float",
+    "description": "Minimum price for products with variants (raw value)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "priceMax",
+    "type": "float",
+    "description": "Maximum price for products with variants (raw value)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "priceBeforeDiscount",
+    "type": "float",
+    "description": "Original price before discount (raw value)",
+    "fillRate": 92,
+    "premium": false
+  },
+  {
+    "name": "priceMinBeforeDiscount",
+    "type": "float",
+    "description": "Minimum price before discount for variants (raw value)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "priceMaxBeforeDiscount",
+    "type": "float",
+    "description": "Maximum price before discount for variants (raw value)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "discount",
+    "type": "float",
+    "description": "Discount percentage (0-100)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "ratingAvg",
+    "type": "float",
+    "description": "Average rating (0-5 stars)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "ratingCount",
+    "type": "float",
+    "description": "Total number of ratings",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "commentCount",
+    "type": "float",
+    "description": "Number of reviews/comments",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "likedCount",
+    "type": "float",
+    "description": "Number of likes/favorites",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shopLocation",
+    "type": "string",
+    "description": "Seller location/city",
+    "fillRate": 97,
+    "premium": false
+  },
+  {
+    "name": "isAdult",
+    "type": "bool",
+    "description": "Whether product is adult-only",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "isPreOrder",
+    "type": "bool",
+    "description": "Whether product is pre-order",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "estimatedDays",
+    "type": "float",
+    "description": "Estimated shipping/processing days for pre-order",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "isFreeShipping",
+    "type": "bool",
+    "description": "Whether free shipping is available",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "isServiceByShopee",
+    "type": "bool",
+    "description": "Whether fulfilled by Shopee (FBS)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "images",
+    "type": "array",
+    "description": "Array of all product image IDs",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "models",
+    "type": "json",
+    "description": "Array of product variants/SKUs with fields: item_id, name, promotion_id, price, price_before_discount, model_id, is_clickable, is_grayout, stock",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "createdAt",
+    "type": "datetime",
+    "description": "Product creation timestamp",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shopName",
+    "type": "string",
+    "description": "Shop/seller name",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shopRating",
+    "type": "float",
+    "description": "Shop average rating (0-5)",
+    "fillRate": 84,
+    "premium": false
+  },
+  {
+    "name": "shopResponseRate",
+    "type": "float",
+    "description": "Shop response rate percentage (0-100)",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "shopResponseTime",
+    "type": "float",
+    "description": "Average shop response time in seconds",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shopFollowerCount",
+    "type": "float",
+    "description": "Number of shop followers",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shopItemCount",
+    "type": "float",
+    "description": "Number of products in shop",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shopCreatedAt",
+    "type": "datetime",
+    "description": "Shop creation timestamp",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "isOfficialShop",
+    "type": "bool",
+    "description": "Whether shop is official/verified",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shopRatingGood",
+    "type": "float",
+    "description": "Number of positive shop ratings",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shopRatingNormal",
+    "type": "float",
+    "description": "Number of neutral shop ratings",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shopRatingBad",
+    "type": "float",
+    "description": "Number of negative shop ratings",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "isShopeeVerified",
+    "type": "bool",
+    "description": "Whether shop is Shopee verified",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shopDetailedLocation",
+    "type": "string",
+    "description": "Shop location from shop details",
+    "fillRate": 97,
+    "premium": false
+  },
+  {
+    "name": "isIndividualSeller",
+    "type": "bool",
+    "description": "Whether seller is an individual (not a business)",
+    "fillRate": 0,
+    "premium": false
+  },
+  {
+    "name": "isMart",
+    "type": "bool",
+    "description": "Whether product is from Shopee Mart",
+    "fillRate": 0,
+    "premium": false
+  },
+  {
+    "name": "shippingFeeMin",
+    "type": "float",
+    "description": "Minimum shipping fee (raw value)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "modelsCount",
+    "type": "float",
+    "description": "Number of product variants/SKUs",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "productUrl",
+    "type": "string",
+    "description": "Full URL to the Shopee product page",
+    "fillRate": 100,
+    "premium": true
+  }
+]

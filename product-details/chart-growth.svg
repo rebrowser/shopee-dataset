@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="268" viewBox="0 0 900 268">
+  <rect width="900" height="268" fill="#ffffff" rx="6" ry="6" />
+  <!-- title -->
+  <text x="450" y="20" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#24292e"
+        >Product Details — Record Growth</text>
+  <!-- legend -->
+  <circle cx="365" cy="31" r="4" fill="#3b82f6" />
+  <text x="373" y="34" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="11" fill="#586069">Total Records</text>
+  <circle cx="455" cy="31" r="4" fill="#22c55e" />
+  <text x="463" y="34" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="11" fill="#586069">Added</text>
+  <!-- grid lines -->
+  <line x1="58" y1="52" x2="848" y2="52"
+           stroke="#e1e4e8" stroke-width="1" stroke-dasharray="4,3" />
+  <line x1="58" y1="145" x2="848" y2="145"
+           stroke="#e1e4e8" stroke-width="1" stroke-dasharray="4,3" />
+  <line x1="58" y1="236" x2="848" y2="236"
+           stroke="#e1e4e8" stroke-width="1" stroke-dasharray="4,3" />
+  <!-- bars (Added, right axis) -->
+  <rect x="59" y="219" width="50" height="21"
+          rx="1" fill="#22c55eb3" />
+  <rect x="111" y="214" width="50" height="26"
+          rx="1" fill="#22c55eb3" />
+  <rect x="163" y="205" width="50" height="35"
+          rx="1" fill="#22c55eb3" />
+  <rect x="215" y="222" width="50" height="18"
+          rx="1" fill="#22c55eb3" />
+  <rect x="267" y="239" width="50" height="1"
+          rx="1" fill="#22c55eb3" />
+  <rect x="319" y="145" width="50" height="95"
+          rx="1" fill="#22c55eb3" />
+  <rect x="371" y="236" width="50" height="4"
+          rx="1" fill="#22c55eb3" />
+  <rect x="423" y="233" width="50" height="7"
+          rx="1" fill="#22c55eb3" />
+  <rect x="475" y="212" width="50" height="28"
+          rx="1" fill="#22c55eb3" />
+  <rect x="527" y="147" width="50" height="93"
+          rx="1" fill="#22c55eb3" />
+  <rect x="579" y="95" width="50" height="145"
+          rx="1" fill="#22c55eb3" />
+  <rect x="631" y="131" width="50" height="109"
+          rx="1" fill="#22c55eb3" />
+  <rect x="683" y="73" width="50" height="167"
+          rx="1" fill="#22c55eb3" />
+  <rect x="735" y="131" width="50" height="109"
+          rx="1" fill="#22c55eb3" />
+  <rect x="787" y="201" width="50" height="39"
+          rx="1" fill="#22c55eb3" />
+  <!-- line (Total, left axis) -->
+  <polyline points="84,240 136,234 188,227 240,223 292,223 344,202 396,201 448,199 500,193 552,173 604,142 656,118 708,82 760,58 812,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  <!-- left y-axis labels (Total) -->
+  <text x="52" y="56" text-anchor="end"
+           font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
+           >22M</text>
+  <text x="52" y="149" text-anchor="end"
+           font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
+           >11M</text>
+  <text x="52" y="240" text-anchor="end"
+           font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
+           >523k</text>
+  <!-- right y-axis labels (Added) -->
+  <text x="854" y="56" text-anchor="start"
+           font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#22c55e"
+           >4M</text>
+  <text x="854" y="149" text-anchor="start"
+           font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#22c55e"
+           >2M</text>
+  <text x="854" y="240" text-anchor="start"
+           font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#22c55e"
+           >0</text>
+  <!-- axes -->
+  <line x1="58" y1="50" x2="58" y2="240"
+        stroke="#e1e4e8" stroke-width="1" />
+  <line x1="58" y1="240" x2="848" y2="240"
+        stroke="#e1e4e8" stroke-width="1" />
+  <line x1="848" y1="50" x2="848" y2="240"
+           stroke="#e1e4e8" stroke-width="1" />
+  <!-- x-axis labels -->
+  <text x="84" y="256" text-anchor="middle"
+           font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
+           >Oct 26</text>
+  <text x="292" y="256" text-anchor="middle"
+           font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
+           >Nov 23</text>
+  <text x="500" y="256" text-anchor="middle"
+           font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
+           >Dec 21</text>
+  <text x="708" y="256" text-anchor="middle"
+           font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
+           >Jan 18</text>
+  <text x="812" y="256" text-anchor="middle"
+           font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
+           >Feb 1</text>
+</svg>
