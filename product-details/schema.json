@@ -123,21 +123,21 @@
     "type": "float",
     "description": "Original price before discount (raw value)",
     "fillRate": 92,
-    "premium": false
+    "premium": true
   },
   {
     "name": "priceMinBeforeDiscount",
     "type": "float",
     "description": "Minimum price before discount for variants (raw value)",
     "fillRate": 100,
-    "premium": false
+    "premium": true
   },
   {
     "name": "priceMaxBeforeDiscount",
     "type": "float",
     "description": "Maximum price before discount for variants (raw value)",
     "fillRate": 100,
-    "premium": false
+    "premium": true
   },
   {
     "name": "discount",
@@ -228,7 +228,7 @@
     "type": "json",
     "description": "Array of product variants/SKUs with fields: item_id, name, promotion_id, price, price_before_discount, model_id, is_clickable, is_grayout, stock",
     "fillRate": 100,
-    "premium": false
+    "premium": true
   },
   {
     "name": "createdAt",

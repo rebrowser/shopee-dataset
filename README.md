@@ -45,9 +45,9 @@ Shopee product listings with variant pricing, discount percentages, seller ratin
 | `price` 🔒 | `float` | 100% | Current price (raw value from API, typically multiplied by 100000) |
 | `priceMin` | `float` | 100% | Minimum price for products with variants (raw value) |
 | `priceMax` | `float` | 100% | Maximum price for products with variants (raw value) |
-| `priceBeforeDiscount` | `float` | 92% | Original price before discount (raw value) |
-| `priceMinBeforeDiscount` | `float` | 100% | Minimum price before discount for variants (raw value) |
-| `priceMaxBeforeDiscount` | `float` | 100% | Maximum price before discount for variants (raw value) |
+| `priceBeforeDiscount` 🔒 | `float` | 92% | Original price before discount (raw value) |
+| `priceMinBeforeDiscount` 🔒 | `float` | 100% | Minimum price before discount for variants (raw value) |
+| `priceMaxBeforeDiscount` 🔒 | `float` | 100% | Maximum price before discount for variants (raw value) |
 | `discount` | `float` | 100% | Discount percentage (0-100) |
 | `ratingAvg` | `float` | 100% | Average rating (0-5 stars) |
 | `ratingCount` | `float` | 100% | Total number of ratings |
@@ -60,7 +60,7 @@ Shopee product listings with variant pricing, discount percentages, seller ratin
 | `isFreeShipping` | `bool` | 100% | Whether free shipping is available |
 | `isServiceByShopee` | `bool` | 100% | Whether fulfilled by Shopee (FBS) |
 | `images` | `array` | 100% | Array of all product image IDs |
-| `models` | `json` | 100% | Array of product variants/SKUs with fields: item_id, name, promotion_id, price, price_before_discount, model_id, is_clickable, is_grayout, stock |
+| `models` 🔒 | `json` | 100% | Array of product variants/SKUs with fields: item_id, name, promotion_id, price, price_before_discount, model_id, is_clickable, is_grayout, stock |
 | `createdAt` | `datetime` | 100% | Product creation timestamp |
 | `shopName` | `string` | 100% | Shop/seller name |
 | `shopRating` | `float` | 84% | Shop average rating (0-5) |
@@ -272,6 +272,6 @@ Commercial use requires a paid license — see [pricing](https://rebrowser.net/p
 Rebrowser is an independent data provider and is not affiliated with, endorsed by, or sponsored by Shopee. Any trademarks are the property of their respective owners. This dataset is compiled from publicly available information; we do not request or collect Shopee user credentials. By using this dataset, you agree to comply with Shopee's Terms of Service and all applicable laws and regulations. Images, logos, descriptions, and other materials included in this dataset remain the intellectual property of their respective owners and are provided solely for informational purposes. Rebrowser makes no warranties regarding the accuracy, completeness, or legality of the data and assumes no liability for how the data is used. You are solely responsible for ensuring that your use of this dataset does not infringe on the rights of any third party.
 
 
-You can also find this data on [Kaggle](https://www.kaggle.com/datasets/rebrowser/shopee-dataset), [HuggingFace](https://huggingface.co/datasets/rebrowser/shopee-dataset).
+You can also find this data on [Kaggle](https://www.kaggle.com/datasets/rebrowser/shopee-dataset), [HuggingFace](https://huggingface.co/datasets/rebrowser/shopee-dataset), [Zenodo](https://doi.org/10.5281/zenodo.18854854).
 
 
