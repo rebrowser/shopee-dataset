@@ -146,7 +146,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"ratingCount","op":"gt","value":10},{"sort":"ratingCount DESC"}]`
 
-[All Products](https://rebrowser.net/products/datasets/shopee/product-details/views/products-database) — 26,312,561 records
+[All Products](https://rebrowser.net/products/datasets/shopee/product-details/views/products-database) — 26,424,118 records
 
 ↳ `[{"sort":"createdAt DESC"}]`
 
