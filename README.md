@@ -1,6 +1,6 @@
 # Shopee Product Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--08--20-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-22.1M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/shopee)
+![Updated](https://img.shields.io/badge/updated-2026--08--21-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-22.1M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/shopee)
 
 Daily snapshots of Shopee product listings across Taiwan and Southeast Asian marketplaces with variant pricing, seller metrics, ratings, and shipping data.
 
@@ -142,23 +142,23 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Product Details
 
 
-[Products with Customer Ratings](https://rebrowser.net/products/datasets/shopee/product-details/views/products-with-ratings) — 3,054,063 records
+[Products with Customer Ratings](https://rebrowser.net/products/datasets/shopee/product-details/views/products-with-ratings) — 3,056,674 records
 
 ↳ `[{"field":"ratingCount","op":"gt","value":10},{"sort":"ratingCount DESC"}]`
 
-[All Products](https://rebrowser.net/products/datasets/shopee/product-details/views/products-database) — 32,530,811 records
+[All Products](https://rebrowser.net/products/datasets/shopee/product-details/views/products-database) — 32,550,221 records
 
 ↳ `[{"sort":"createdAt DESC"}]`
 
-[Products with Active Discounts](https://rebrowser.net/products/datasets/shopee/product-details/views/products-with-discount) — 10,511,207 records
+[Products with Active Discounts](https://rebrowser.net/products/datasets/shopee/product-details/views/products-with-discount) — 10,491,817 records
 
 ↳ `[{"field":"discount","op":"gte","value":10},{"sort":"discount DESC"}]`
 
-[Products with Free Shipping](https://rebrowser.net/products/datasets/shopee/product-details/views/free-shipping-products) — 408,285 records
+[Products with Free Shipping](https://rebrowser.net/products/datasets/shopee/product-details/views/free-shipping-products) — 408,290 records
 
 ↳ `[{"field":"isFreeShipping","op":"isTrue"},{"sort":"likedCount DESC"}]`
 
-[Official Shop Products](https://rebrowser.net/products/datasets/shopee/product-details/views/official-shop-products) — 1,259,515 records
+[Official Shop Products](https://rebrowser.net/products/datasets/shopee/product-details/views/official-shop-products) — 1,243,064 records
 
 ↳ `[{"field":"isOfficialShop","op":"isTrue"},{"sort":"shopItemCount DESC"}]`
 
